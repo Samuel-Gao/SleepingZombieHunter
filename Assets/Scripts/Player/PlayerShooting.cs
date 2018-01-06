@@ -2,7 +2,7 @@
 
 public class PlayerShooting : MonoBehaviour
 {
-    public int damagePerShot = 20;
+    public static int damagePerShot = 20;
     public float timeBetweenBullets = 0.15f;
     public float range = 100f;
 
